@@ -8,3 +8,12 @@ dependencies = [
     "pyqt6>=6.11.0",
     "pyqt6-webengine>=6.11.0",
 ]
+
+[tool.ruff.lint]
+ignore = ["I001"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.6",
+    "ty>=0.0.78",
+]
